@@ -33,7 +33,7 @@ pip install nltk
 ### Requirements
 - Any IDE that can run Python 3
 - Python 3.1 or above
-- All Libraries installed prior to running of the code. If not done, follow the steps mentioned [here](https://github.com/Mikeyzgoat/hangman_game/new/main?readme=1#libraries-used).
+- All Libraries installed prior to running of the code. If not done, follow the steps mentioned [here](https://github.com/Mikeyzgoat/hangman_game/blob/main/README.md#libraries-used).
 
 ### Rules
 - A word is selected randomly from an array of words.
