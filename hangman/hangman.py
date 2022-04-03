@@ -35,9 +35,14 @@ def hangman():
     while(chances > 0) : 
         guess = input("make a guess : ").lower()
         if guess in word:
-            word_length = word_length-1
             guess_count = guess_count +1
-            word.remove(guess)
+            try:
+                while True:
+                    word.remove(guess)
+            except ValueError:
+                pass
+            word_length = len(word)
+
             print("yippy!!, you made a right guess, now",word_length,"letter remain .")
         else :
             chances = chances -1
