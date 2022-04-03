@@ -16,7 +16,7 @@ pip install numpy
 ```python
 import random
 ```
-Installation process ( should alrady be there in the system, if not follow the below steps )
+Installation process ( should already be there in the system,if not follow the below steps )
 ```
 pip install random
 ```
